@@ -65,13 +65,6 @@ function createRandomCircle() {
     circle.style.background = getRandomColor();
     circle.style.top = randomNumber(0,435);
     circle.style.right = randomNumber(9,462);
-    // circle.style.width = '30px';
-    // div.style.height = '30px';
-    // left: 20px;
-    //     top: 100px; 
-
-    // top = 0-435px
-    // right = 9-462px
     board.appendChild(circle);                             
 }
 
