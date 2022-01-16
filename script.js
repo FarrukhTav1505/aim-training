@@ -67,7 +67,6 @@ function createRandomCircle() {
     circle.style.right = randomNumber(9,462);
     // circle.style.width = '30px';
     // div.style.height = '30px';
-    // div.style.background = 'red';
     // left: 20px;
     //     top: 100px; 
 
