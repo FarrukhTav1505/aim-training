@@ -57,7 +57,10 @@ function createRandomCircle() {
     circle.classList.add('circle')
                                                            //обращение к его стилю 
                               
-    
+    circle.style = `
+    width: 30px;
+    height: 30px;    
+    `
     
     circle.style.background = getRandomColor();
     circle.style.top = randomNumber(0,435);
